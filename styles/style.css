@@ -153,7 +153,7 @@
 /* <!-- Awlays keep a positive mindset --> */
 
 .positive-mindset {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 80px;
     margin-bottom: 80px;
     display: flex;
@@ -168,7 +168,7 @@
 }
 
 .pm-detail {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 800px;
     height: 150px;
     padding: 15px;
@@ -183,3 +183,46 @@
 
 /* footer part  style */
 
+.footer-container{
+    /* border: 2px solid blue; */
+    margin-top: 80px;
+  
+}
+
+
+.footer-co{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #05050e;
+
+}
+
+.footer-detail{
+    /* border: 2px solid #030325; */
+    margin: 80px;
+    color: white;
+    padding: 15px;
+
+}
+.f-d-title{
+    margin: 10px 0;
+}
+
+.f-d-description{
+    margin: 10px 0;
+}
+
+.footer-form{
+    /* border: 2px solid #00000f; */
+    margin: 100px;
+    color: white;
+    padding: 15px;
+}
+.f-f-title{
+    margin: 12px 0;
+}
+#i-field{
+    height: 35px;
+    margin: 20px 0;
+}
