@@ -91,31 +91,95 @@
 
 /* My Plans style */
 
-.my-plan-container{
+.my-plan-container {
     margin: 100px 0;
 }
 
-.plan-title{
-text-align: center;
-margin-bottom: 40px;
-font-size: 35px;
+.plan-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
 }
 
-.plan-items{
-display: flex;
-justify-content: space-evenly;
-/* border: 2px solid red; */
+.plan-items {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
 }
-.item{
+
+.item {
     text-align: center;
 }
+
 .item h3 {
     font-size: 25px;
-    
+
 
 }
+
 .item p {
     font-size: 18px;
-    
+
 
 }
+
+/* My Experience  */
+
+.experience-part {
+    background-image: url("../images/My-experience/my-expi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ex-container {
+    background-color: #a3a3e0;
+}
+
+.ex-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 25px;
+}
+
+
+.ex-description {
+    font-size: 24px;
+    /* color: white; */
+}
+
+
+/* <!-- Awlays keep a positive mindset --> */
+
+.positive-mindset {
+    border: 2px solid blue;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pm-back-img {
+    background-image: url("../images/watch.png");
+}
+
+.pm-detail {
+    border: 2px solid blue;
+    width: 800px;
+    height: 150px;
+    padding: 15px;
+}
+
+
+.pm-title {
+    margin: 10px 0;
+    color: white;
+}
+
+
+/* footer part  style */
+
